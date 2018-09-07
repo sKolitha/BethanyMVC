@@ -12224,11 +12224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Kolitha\\MVC\\BethanyMVC\\BethanyMVC\\BethanyMVC.csproj",
+      "projectUniqueName": "C:\\M1Projects\\Github\\MVC\\BethanyMVC\\BethanyMVC\\BethanyMVC.csproj",
       "projectName": "BethanyMVC",
-      "projectPath": "C:\\Kolitha\\MVC\\BethanyMVC\\BethanyMVC\\BethanyMVC.csproj",
+      "projectPath": "C:\\M1Projects\\Github\\MVC\\BethanyMVC\\BethanyMVC\\BethanyMVC.csproj",
       "packagesPath": "C:\\Users\\ksiriwardana\\.nuget\\packages\\",
-      "outputPath": "C:\\Kolitha\\MVC\\BethanyMVC\\BethanyMVC\\obj\\",
+      "outputPath": "C:\\M1Projects\\Github\\MVC\\BethanyMVC\\BethanyMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
