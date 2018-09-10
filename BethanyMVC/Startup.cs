@@ -29,6 +29,7 @@ namespace BethanyMVC
             services.AddMvc();
             //services.AddTransient<IPieRepository, MockPieRepository>();
             services.AddTransient<IPieRepository, PieRepository>();
+            services.AddTransient<IFeedbackRepository, FeedbackRepository>();
 
         }
 
@@ -40,13 +41,21 @@ namespace BethanyMVC
                 app.UseDeveloperExceptionPage();
                 app.UseStatusCodePages();
                 app.UseStaticFiles();
-                app.UseMvcWithDefaultRoute();
+                //app.UseMvcWithDefaultRoute();
+                app.UseMvc(routes =>
+                {
+                    routes.MapRoute(
+                        name: "default",
+                        template: "{Controller=Home}/{Action=Index}/{Id?}"
+                        );
+
+                });
             }
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("Hello World!");
+            //});
         }
     }
 }

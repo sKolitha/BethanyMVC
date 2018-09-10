@@ -18,7 +18,7 @@ namespace BethanyMVC
         {
             //CreateWebHostBuilder(args).Build().Run();
 
-            var host = CreateWebHostBuilder(args);
+            var host = BuildWebHost(args);
 
             using(var scope = host.Services.CreateScope())
             {
@@ -26,8 +26,8 @@ namespace BethanyMVC
 
                 try
                 {
-                    var context = services.GetRequiredService<AppDbContext>();
-                    DbInitializer.Seed(context);
+                    var context = services.GetRequiredService<AppDbContext>();                   
+                        DbInitializer.Seed(context);                    
                 }
                 catch (Exception)
                 {
@@ -39,7 +39,7 @@ namespace BethanyMVC
             host.Run();
         }
 
-        public static IWebHost CreateWebHostBuilder(string[] args) =>
+        public static IWebHost BuildWebHost(string[] args) =>
            WebHost.CreateDefaultBuilder(args)
                .UseStartup<Startup>()
             .Build();

@@ -9,16 +9,41 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BethanyMVC.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20180907044451_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20180910093202_FeedbackAdded")]
+    partial class FeedbackAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.2-rtm-30932")
+                .HasAnnotation("ProductVersion", "2.1.1-rtm-30846")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("BethanyMVC.Models.Feedback", b =>
+                {
+                    b.Property<int>("FeedbackId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("ContactMe");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(100);
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasMaxLength(5000);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100);
+
+                    b.HasKey("FeedbackId");
+
+                    b.ToTable("Feedbacks");
+                });
 
             modelBuilder.Entity("BethanyMVC.Models.Pie", b =>
                 {
@@ -29,6 +54,8 @@ namespace BethanyMVC.Migrations
                     b.Property<string>("ImageThumbnailUrl");
 
                     b.Property<string>("ImageUrl");
+
+                    b.Property<bool>("IsInStock");
 
                     b.Property<bool>("IsPieOfTheWeek");
 
