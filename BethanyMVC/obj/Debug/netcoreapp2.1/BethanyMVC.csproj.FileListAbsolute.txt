@@ -28,7 +28,6 @@ C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\bin\Debug\netcoreapp2.1\BethanyMV
 C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\bin\Debug\netcoreapp2.1\BethanyMVC.pdb
 C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\bin\Debug\netcoreapp2.1\BethanyMVC.Views.dll
 C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\bin\Debug\netcoreapp2.1\BethanyMVC.Views.pdb
-C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\BethanyMVC.csprojAssemblyReference.cache
 C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\BethanyMVC.csproj.CoreCompileInputs.cache
 C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\BethanyMVC.RazorAssemblyInfo.cache
 C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\BethanyMVC.RazorAssemblyInfo.cs
@@ -75,3 +74,9 @@ G:\Kolitha\GitHub\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home
 G:\Kolitha\GitHub\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
 G:\Kolitha\GitHub\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\Razor\Views\Feedback\Index.g.cshtml.cs
 G:\Kolitha\GitHub\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\Razor\Views\Feedback\FeedbackComplete.g.cshtml.cs
+C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\Razor\Views\Feedback\FeedbackComplete.g.cshtml.cs
+C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\Razor\Views\Feedback\Index.g.cshtml.cs
+C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.g.cshtml.cs
+C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\M1Projects\Github\MVC\BethanyMVC\BethanyMVC\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs

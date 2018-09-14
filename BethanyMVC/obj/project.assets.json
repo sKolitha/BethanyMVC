@@ -12218,23 +12218,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KolithaS\\.nuget\\packages\\": {},
+    "C:\\Users\\ksiriwardana\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Kolitha\\GitHub\\BethanyMVC\\BethanyMVC\\BethanyMVC.csproj",
+      "projectUniqueName": "C:\\M1Projects\\Github\\MVC\\BethanyMVC\\BethanyMVC\\BethanyMVC.csproj",
       "projectName": "BethanyMVC",
-      "projectPath": "G:\\Kolitha\\GitHub\\BethanyMVC\\BethanyMVC\\BethanyMVC.csproj",
-      "packagesPath": "C:\\Users\\KolithaS\\.nuget\\packages\\",
-      "outputPath": "G:\\Kolitha\\GitHub\\BethanyMVC\\BethanyMVC\\obj\\",
+      "projectPath": "C:\\M1Projects\\Github\\MVC\\BethanyMVC\\BethanyMVC\\BethanyMVC.csproj",
+      "packagesPath": "C:\\Users\\ksiriwardana\\.nuget\\packages\\",
+      "outputPath": "C:\\M1Projects\\Github\\MVC\\BethanyMVC\\BethanyMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\KolithaS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ksiriwardana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
